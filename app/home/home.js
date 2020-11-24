@@ -1,6 +1,7 @@
 /***********************************************************
 * Developer: Minhas Kamal (minhaskamal024@gmail.com)       *
-* Website: https://github.com/MinhasKamal/DownGit          *
+* SourceWebsite: https://github.com/MinhasKamal/DownGit    *
+* ForkWebsite: http://gitdown.bugwz.com                    *
 * License: MIT License                                     *
 ***********************************************************/
 
@@ -32,7 +33,7 @@ homeModule.config([
 
                     var templateUrl = "https?://github.com/.+/.+";
                     var downloadUrlInfix = "#/home?url=";
-                    var downloadUrlPrefix = "https://minhaskamal.github.io/DownGit/"+downloadUrlInfix;
+                    var downloadUrlPrefix = "http://gitdown.bugwz.com/"+downloadUrlInfix;
 
                     if ($routeParams.url) {
                         $scope.url = $routeParams.url;

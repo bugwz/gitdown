@@ -1,6 +1,7 @@
 /***********************************************************
 * Developer: Minhas Kamal (minhaskamal024@gmail.com)       *
-* Website: https://github.com/MinhasKamal/DownGit          *
+* SourceWebsite: https://github.com/MinhasKamal/DownGit    *
+* ForkWebsite: http://gitdown.bugwz.com                    *
 * License: MIT License                                     *
 ***********************************************************/
 
