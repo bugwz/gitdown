@@ -1,9 +1,9 @@
 /***********************************************************
-* Developer: Minhas Kamal (minhaskamal024@gmail.com)       *
-* SourceWebsite: https://github.com/MinhasKamal/DownGit    *
-* ForkWebsite: http://gitdown.bugwz.com                    *
-* License: MIT License                                     *
-***********************************************************/
+ * Developer: Minhas Kamal (minhaskamal024@gmail.com)       *
+ * SourceWebsite: https://github.com/MinhasKamal/DownGit    *
+ * ForkWebsite: http://gitdown.bugwz.com                    *
+ * License: MIT License                                     *
+ ***********************************************************/
 
 var siteHeaderText = {};
 
@@ -15,7 +15,7 @@ var gitDown = angular.module('gitDown', [
 
 gitDown.config([
     '$routeProvider',
-    
+
     function($routeProvider) {
         $routeProvider
             .when('/', {
@@ -29,7 +29,7 @@ gitDown.config([
 
 gitDown.config([
     'toastrConfig',
-    
+
     function(toastrConfig) {
         angular.extend(toastrConfig, {
             positionClass: 'toast-bottom-right',
