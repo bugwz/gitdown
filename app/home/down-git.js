@@ -5,10 +5,10 @@
 * License: MIT License                                     *
 ***********************************************************/
 
-var downGitModule = angular.module('downGitModule', [
+var gitDownModule = angular.module('gitDownModule', [
 ]);
 
-downGitModule.factory('downGitService', [
+gitDownModule.factory('gitDownService', [
     '$http',
     '$q',
 

@@ -7,13 +7,13 @@
 
 var siteHeaderText = {};
 
-var downGit = angular.module('downGit', [
+var gitDown = angular.module('gitDown', [
     'ngRoute',
     'homeModule',
     'toastr',
 ]);
 
-downGit.config([
+gitDown.config([
     '$routeProvider',
     
     function($routeProvider) {
@@ -27,7 +27,7 @@ downGit.config([
     }
 ]);
 
-downGit.config([
+gitDown.config([
     'toastrConfig',
     
     function(toastrConfig) {

@@ -7,7 +7,7 @@
 
 var homeModule = angular.module('homeModule', [
     'ngRoute',
-    'downGitModule',
+    'gitDownModule',
 ]);
 
 homeModule.config([
@@ -22,9 +22,9 @@ homeModule.config([
                 '$routeParams',
                 '$location',
                 'toastr',
-                'downGitService',
+                'gitDownService',
 
-                function($scope, $routeParams, $location, toastr, downGitService) {
+                function($scope, $routeParams, $location, toastr, gitDownService) {
                     $scope.downUrl = "";
                     $scope.url = "";
                     $scope.isProcessing = {val: false};
@@ -50,7 +50,7 @@ homeModule.config([
                             downloadedFiles: $scope.downloadedFiles,
                             totalFiles: $scope.totalFiles
                         };
-                        downGitService.downloadZippedFiles(parameter, progress, toastr);
+                        gitDownService.downloadZippedFiles(parameter, progress, toastr);
 
                     } else if ($scope.url != "") {
                         toastr.warning("Invalid URL!", {iconClass: 'toast-down'});
